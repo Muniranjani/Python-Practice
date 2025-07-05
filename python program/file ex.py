@@ -1,0 +1,17 @@
+# f=open("C:\\Users\\R.MUNIRANJANI\\Documents\\PYTHON\\myfile.txt",'w')
+# print("File name is",f.name)
+# print("file mode is",f.mode)
+# print("file property ",f.readable())
+# print("file property",f.writable())
+# print("file is closed or not",f.closed)
+# f.close()
+# print("file is closed or not",f.closed)
+
+f=open("C:\\Users\\R.MUNIRANJANI\\Documents\\PYTHON\\myfile.txt",'w')
+f.write("nithya\n")
+f.write("is a \n")
+f.write("Nice guys\n")
+list=["Nithya\n","naveen\n","Hari","Ragul"]
+f.writelines(list)
+f.close()
+print("file is closed or not",f.closed)
